@@ -1,0 +1,43 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.page-section {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+/* Additional styles for each section (you can customize as needed) */
+#section1 {
+  background-color: #f9c2ff;
+  color: #000;
+}
+#section2 {
+  background-color: #ffc0cb;
+  color: #000;
+}
+#section3 {
+  background-color: #90ee90;
+  color: #000;
+}
+
+/* Styles for the navigation arrows */
+.nav-arrows {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.nav-arrow {
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 1rem;
+}
